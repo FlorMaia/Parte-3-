@@ -55,15 +55,16 @@
     transition: background-color 0.2s ease; 
   }
 .buttons {
-    display: flex; /* Create a flexbox layout for the buttons */
-    justify-content: space-between; /* Add space between the buttons */
+    display: flex; 
+    justify-content: space-between; 
   }
   button:hover {
-    background-color: #3e8e41; /* Change the background color of the buttons on hover */
-    color: #fff; /* Set the text color of the buttons on hover */
+    background-color: #3e8e41; 
+    color: #fff; 
   }
 
   button:active {
-    background-color: #2e6c31; /* Change the background color of the buttons on active */
-    color: #fff; /* Set the text color of the buttons on active */
+    background-color: #2e6c31; 
+    color: #fff; 
+    
   }
