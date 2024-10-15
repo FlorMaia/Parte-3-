@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  body {
+    font-family: "Montserrat",sans-serif; 
+    background-color: #ff0000; /
+  }
+
+  .container {
+    max-width: 300px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+  }
+
+  .form-grid {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 10px; 
+  }
+
+  label {
+    font-weight: bold; 
+    color: #333; 
+    font-size: 14px; 
+  }
+
+  input, select {
+    width: 90%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 14px; 
+  }
+
+  input:focus, select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(128, 2, 2, 0.2); 
+  }
+
+  button {
+    width: 60%; 
+    padding: 20px; 
+    border: none; 
+    border-radius: 10px; 
+    background-color: #32457a; 
+    color: #000000; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease; 
+  }
+.buttons {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  button:hover {
+    background-color: #1c0df0; 
+    color: #fff; 
+  }
+
+  button:active {
+    background-color: #270a8f; 
+    color: #fff; 
+  }
